@@ -137,7 +137,7 @@ public class TriangleTest {
     @Test
     public void testType06() {
         System.out.println("Kiem tra phan loai tam giac nhon");
-        Point a = new Point(1, 1);
+        Point a = new Point(0, 0);
         Point b = new Point(2, 3);
         Point c = new Point(4, 1);
         Triangle triangle = new Triangle(a, b, c);
