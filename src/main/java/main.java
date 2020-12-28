@@ -18,7 +18,7 @@ public class main {
         System.out.println(c.distance(a));
         Triangle triangle = new Triangle(a, b, c);
         System.out.println(triangle.perimeter());
-        triangle.type();
+        triangle.classify();
         
     }
     

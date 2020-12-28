@@ -59,7 +59,7 @@ public class Triangle {
         }
     }
 
-    public String type() {
+    public String classify() {
         double abab = this.a.squaredDistance(b);
         double bcbc = this.b.squaredDistance(c);
         double caca = this.c.squaredDistance(a);
